@@ -115,3 +115,20 @@ nav svg {
 .daftar-akun h5 {
     font-size: .8em;
 }
+
+footer {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .icon-footer {
+    display: flex;
+    gap: 1rem;
+}
+
+footer p {
+    font-size: .8rem;
+}

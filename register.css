@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    height: 730px;
+}
+
 nav {
     width: 100%;
     height: 40px;
@@ -118,4 +122,21 @@ nav svg {
 
 .form-check-label p {
     font-size: 0.8em;
+}
+
+footer {
+    margin-bottom: px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .icon-footer {
+    display: flex;
+    gap: 1rem;
+}
+
+footer p {
+    font-size: .8rem;
 }
